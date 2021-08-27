@@ -162,8 +162,9 @@
 }
 
 .full-img {
+  max-width: 600px;
+  width: 100%;
   position: absolute;
-  height: 70%;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%) scale(0.5);
