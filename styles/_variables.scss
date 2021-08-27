@@ -10,17 +10,26 @@ $colour-grey-light: #f0f0f0;
 
 // FONTS
 
-$font-size: 16px;
-$paragraph-size: 1.25rem;
 $font-family: "Open Sans", sans-serif;
 $font-weight-light: 300;
 $font-weight-semi-bold: 600;
-$font-line-height: 2rem;
+$font-line-height: 1.875rem;
+
+$font-size: 16px;
+$bold-size: 1.125rem;
+$header-two: 2.625rem;
+$header-three: 1.65rem;
+$header-five: 1.125rem;
 
 // PADDING
 
 //placeholders - may change as I build
-$padding-top: 4rem;
-$padding-bot: 4rem;
-$padding-left: 4rem;
-$padding-right: 4rem;
+
+$padding-top: 8rem;
+$padding-bot: 8rem;
+$padding-left: 0;
+$padding-right: 0;
+
+//MARGIN
+
+$margin-section: 10rem;

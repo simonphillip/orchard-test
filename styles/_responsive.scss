@@ -1,0 +1,59 @@
+//Responsive
+
+@media only screen and (max-width: 1200px) {
+  .flex {
+    flex-direction: column-reverse;
+    padding: 4rem;
+  }
+
+  .flex-child-image {
+    flex-direction: row;
+    width: 100%;
+    max-width: 1000px;
+  }
+  .flex-child-image > img {
+    margin: 1rem 0;
+  }
+
+  .cards {
+    margin: 0 5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .cards {
+    margin: 0 3rem;
+    justify-content: center;
+  }
+
+  .img-container {
+    padding: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .flex {
+    flex-direction: column-reverse;
+    padding: 2rem;
+    align-items: center;
+  }
+
+  .flex-child-image {
+    img {
+      max-width: 330px;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .flex-child-image {
+    img {
+      max-width: 300px;
+      width: 100%;
+    }
+  }
+
+  .cards {
+    margin: 0 1rem;
+  }
+}
