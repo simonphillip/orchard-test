@@ -18,16 +18,16 @@
   .cards {
     margin: 0 5rem;
   }
+
+  .img-container {
+    padding: $padding-1 0;
+  }
 }
 
 @media only screen and (max-width: 900px) {
   .cards {
     margin: 0 3rem;
     justify-content: center;
-  }
-
-  .img-container {
-    padding: 1rem 0;
   }
 }
 
