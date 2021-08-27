@@ -3,6 +3,9 @@ const preview = document.querySelectorAll(".img-container img");
 const original = document.querySelector(".full-img");
 const imgText = document.querySelector('.caption');
 
+//anchor console clicks
+const anchorClicks = document.querySelectorAll(".read-more");
+
 preview.forEach(preview => {
     preview.addEventListener("click", () => {
         modal.classList.add("open");
@@ -13,7 +16,7 @@ preview.forEach(preview => {
         original.src = `./images/main/${originalSrc}-2x.jpg`;
         const altText = preview.alt;
         imgText.textContent = altText;
-        console.log('item clicked');
+        console.log(originalSrc + 'clicked');
     })
 });
 
@@ -25,3 +28,11 @@ modal.addEventListener('click', e => {
         original.classList.remove("open");
     }
 })
+
+//get anchor clicks to log to console
+anchorClicks.forEach(anchorClick => {
+    anchorClick.addEventListener("click", () => {
+        const originalSrc = anchorClick.getAttribute("data-original");
+        console.log(originalSrc + ' was clicked');
+    })
+});
