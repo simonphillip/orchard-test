@@ -89,6 +89,7 @@ section {
 
 .flex {
   display: flex;
+  flex-basis: 100%;
 }
 
 .flex-child-image {
@@ -96,7 +97,10 @@ section {
   flex-direction: column;
   justify-content: space-between;
   margin: 0.5rem;
-  max-width: 400px;
+}
+
+.flex-images {
+  display: flex;
 }
 
 .flex-child-text {
@@ -112,4 +116,5 @@ section {
   height: 1px;
   width: 100%;
   background-color: $colour-white;
+  max-width: 400px;
 }

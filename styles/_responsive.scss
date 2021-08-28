@@ -6,6 +6,10 @@
     padding: 4rem;
   }
 
+  .flex-images {
+    align-items: center;
+  }
+
   .flex-child-image {
     flex-direction: row;
     width: 100%;
@@ -29,6 +33,10 @@
   .cards {
     margin: 0 3rem;
     justify-content: center;
+  }
+  .flex-images {
+    flex-direction: column;
+    max-width: 350px;
   }
 }
 
